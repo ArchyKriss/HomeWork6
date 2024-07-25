@@ -44,11 +44,11 @@ public class Main {
         }
 
         //task9
-        int sum2 =0;
+        double sum2 =0;
         int money2 = 29000;
+        double percent = 1.01;
         for(int i = 1; i<=12; i++){
-            sum2+=sum/100;
-            sum2+=money2;
+            sum2 = sum2 * percent + money2;
             System.out.println("Месяц "+i+", сумма накоплений равна "+sum2);
         }
 
